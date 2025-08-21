@@ -124,22 +124,35 @@ encounter as you use ASReview LAB.
     A dataset is the collection of records (:term:`record`) that the :term:`user` reviews.
 
   ELAS
-    ELAS stands for "Electronic Learning Assistant". It is the name of the
-    mascot of ASReview and used for storytelling and to increase explainability.
+    ELAS stands for “Electronic Learning Assistant”. It is the name of ASReview's 
+    mascot. ELAS is used for storytelling and enhancing explainability.
 
   Extension
     An extension is an additional element to the ASReview LAB, such as the
     `ASReview Dory <https://github.com/asreview/asreview-dory>`__ extension.
 
+  Labeling tags
+    Labeling tags allow you to categorize records based on specific criteria, 
+    such as reasons for inclusion and exclusion, study characteristics, or quality 
+    assessment.
+
   Note
-    A note is the information added by the :term:`user` in the note field and
-    stored in the :term:`project`. It can be edited on the History page.
+    A note allows the user to add custom comments or observations about a record 
+    during the review process. This note is stored in the project and can be used 
+    to clarify decisions or track reasoning. It can be edited on the Collection page.
+
+  Prior knowledge
+    Prior knowledge refers to labeled records (marked as relevant or irrelevant) 
+    that are used to train the machine learning model in ASReview. This knowledge can be 
+    provided at the beginning of the screening process or added at any point during 
+    the review. It helps guide the model in ranking the most likely relevant records, 
+    thereby improving the efficiency and focus of the screening process.
 
   Project
-    A project is a project created in ASReview LAB and can be a "review" or a
-    "simulation". A project contains the :term:`dataset`, :term:`Active learning
-    model`, and the :term:`user` labels. A project can be exported to an ASReview file with extension
-    ``.asreview``. The project can be imported back into ASReview LAB.
+    A project is created in ASReview LAB and can be a “review” or a “simulation”. 
+    It contains the dataset, active learning model, and the user labels. 
+    A project can be exported to an ASReview file with extension .asreview. 
+    The project can be imported back into ASReview LAB.
 
   Status
     The project status is the stage that a :term:`project` is at in ASReview
@@ -156,10 +169,10 @@ encounter as you use ASReview LAB.
     other models.
 
   Record
-    A record is the piece of text that needs to be labeled. It usually consists
-    of a title and an abstract. The record is the unit of analysis in ASReview
-    LAB. For scholars, a record is a title and abstract of a paper. For other
-    domains, it can be any piece of text that needs to be labeled.
+    A record is the unit of text that requires labeling in ASReview LAB. It 
+    typically includes a title and an abstract, and may also contain keywords. 
+    In academic contexts, a record usually refers to the title and abstract of a paper. 
+    In other domains, it can represent any text snippet that needs to be labeled.
 
   Review
     Reviewing is the decision-making process on the relevance of
@@ -167,8 +180,7 @@ encounter as you use ASReview LAB.
     interchangeable with Labeling, Screening, and Classifying.
 
   User
-    The human annotator or screener is the person who labels
-    :term:`record`.
+    The user is the human annotator or screener who labels :term:`record`.
 
 
 Key principles
